@@ -55,8 +55,8 @@ def main(arg):
         difference = next_stamp_sec - prev_stamp_sec
         
         # c. interpolate the NT in seconds
-        prev_char = countChar(m,index,text)
-        next_char = countChar(index,n,text)
+        prev_char = countChar(timestamps[m][0]+1,timestamps[index][0]-1,text)
+        next_char = countChar(timestamps[index][0]+1,timestamps[n][0]-1,text)
         weight = prev_char/(prev_char+next_char)
 
         interpolation = int(prev_stamp_sec + difference*weight)
@@ -120,7 +120,7 @@ def stampToString(hms):
 def countChar(startline,stopline,text):
     # counts the number of characters in a text broken over multiple lines
     
-    string=''.join(text[startline:stopline+1])
+    string=''.join(text[startline:stopline])
     
     return len(string)
 
