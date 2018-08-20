@@ -4,10 +4,10 @@ The folder "OSX" contains the original version of the script, meant for use from
 
 to-do:
 	-add optional ability to estimate first and last timestamps if they are NTs
-	-fix the weird newline removal issue
+	-fix the newline removal issue
 
 
 ideas to improve interpolation accuracy:
 	-omitting respondent/moderator IDs and timestamps from the character count
-	-counting non-phonetic characters differently: inaudible/crosstalk tags, punctuation, digraphs (this list is only a beginning)
-	-extrapolating speaking rates from speech without NTs for single-respondent transcripts or transcripts with respondent IDs
+	-counting non-phonetic characters differently: inaudible/crosstalk tags, punctuation, etc.
+	-it's probably good enough as it is, for the most part

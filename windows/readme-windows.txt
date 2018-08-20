@@ -21,5 +21,5 @@ Notes:
 	-The script can't estimate the first or last timestamp of a transcript. You'll have to fill those in yourself BEFORE doing anything else.
 	-We don't have Python at work. Unless you can get someone to install it for you, you'll have to copy the plain text transcript to your computer and interpolate it there.  
 	-If I copy/paste an interpolated transcript into the term server, I lose all the line divisions. Check your interpolated transcript on the term server. If you have the same problem, you can get around it by copying/pasting the text of the transcript, rather than the transcript itself.
-	-There used to be a text encoding issue that caused the script to stop running or to omit certain characters. I believe it's been resolved, but if you notice Notepad highlighting any spelling errors after running the script, please report the issue (see below).
+	-There used to be a text encoding issue that caused the script to omit certain characters. I believe it's been resolved, but if you notice Notepad highlighting any spelling errors after running the script, please report the issue (see below).
 	-Send any problems to acogbill@focusfwd.com (or Slack me for a faster reply).
