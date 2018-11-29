@@ -3,16 +3,15 @@
 # A script to replace *** codes in transcripts with one-minute timesatmps in ascending order
 # By Aaron Cogbill acogbill@focusfwd.com
 
-ORIGINAL = 4;
-
 import sys, re
+
+ORIGINAL = 4;
 
 def main(start, filename):
 	transcript = open(filename, encoding='cp1252', errors='ignore')
 	text = transcript.readlines()
 	transcript.close()
 
-	# why is this block failing?
 	stampRE=re.compile(r'\*\*\*');
 	timestamps=[]
 	for line in range(len(text)):
