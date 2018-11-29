@@ -42,4 +42,4 @@ def stampify(min):
 	return "(00:" + str(min).rjust(2,'0') + ":00)"
 
 
-main(4, sys.argv[1])
+main(ORIGINAL, sys.argv[1])
