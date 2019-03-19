@@ -9,13 +9,13 @@ The directory "OSX" contains the original version of the script, meant for use f
 
 to-do:
 
-	-add optional ability to estimate first and last timestamps if they are NTs
+	- add optional ability to estimate first and last timestamps if they are NTs
 
-	-fix the newline issue
+	- fix the newline issue
 ideas to improve interpolation accuracy:
 
-	-omitting respondent/moderator IDs and timestamps from the character count
+	- omitting respondent/moderator IDs and timestamps from the character count
 	
-	-counting non-phonetic characters differently: inaudible/crosstalk tags, punctuation, etc.
+	- counting non-phonetic characters differently: inaudible/crosstalk tags, punctuation, etc.
 
-	-it's probably good enough as it is, for the most part
+	- it's probably good enough as it is, for the most part
